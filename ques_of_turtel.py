@@ -52,12 +52,13 @@ turtle.mainloop()
 
 
 # using: dot method
-'''
+
 turtle.Screen()
 pen = turtle.Turtle()
 pen.shape("arrow")
 pen.pensize(10)
 turtle.bgcolor("pink")
+
 pen.up()
 pen.goto(300, -220)
 pen.down()
@@ -91,7 +92,6 @@ pen.dot(100)
 turtle.done()
 turtle.mainloop()
 
-'''
 
 # using another method: made circle first then fill the circles.
 
