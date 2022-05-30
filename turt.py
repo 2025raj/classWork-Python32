@@ -166,7 +166,31 @@ pen.speed(1)  # for controlling speed of a pen ;  1 is slowest
 pen.color("red")
 pen.forward(50)
 
-pen.clear()
+
+# for clearing screen use object.clear/ (built-in function)
+# pen.clear()
+
+
+# we can use pen in 4 direction forward,backward,left,right
+
+pen.color("red")
+pen.backward(50)  # (object.backward) use to move pen backward
+
+
+pen.color("blue")
+pen.backward(50)
+
+
+turtle.bgcolor("yellow")
+turtle.title("hello world")
+pen.color("black")
+pen.left(90)  # if we use left then it starts from anti-clockwise
+pen.forward(100)
+
+
+pen.color("blue")
+pen.right(90)
+pen.forward(100)
 
 
 turtle.done()
