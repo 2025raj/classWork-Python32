@@ -255,7 +255,7 @@ turtle.mainloop()
 
 ### for creating circle ###
 
-'''
+
 turtle.Screen()
 pen = turtle.Turtle()
 
@@ -263,14 +263,13 @@ pen = turtle.Turtle()
 pen.begin_fill()
 pen.fillcolor("blue")
 
-pen.circle(70)
+pen.circle(150)
 
 pen.end_fill()
 
-
+pen.hideturtle()
 turtle.done()
 turtle.mainloop()
-'''
 
 
 # creating a dot
@@ -287,3 +286,5 @@ pen.dot(70)
 turtle.done()
 turtle.mainloop()
 '''
+
+# to draw shape from different position
