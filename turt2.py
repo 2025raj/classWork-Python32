@@ -255,7 +255,7 @@ turtle.mainloop()
 
 ### for creating circle ###
 
-
+'''
 turtle.Screen()
 pen = turtle.Turtle()
 
@@ -270,7 +270,7 @@ pen.end_fill()
 pen.hideturtle()
 turtle.done()
 turtle.mainloop()
-
+'''
 
 # creating a dot
 
@@ -287,4 +287,41 @@ turtle.done()
 turtle.mainloop()
 '''
 
-# to draw shape from different position
+# turtle.seth
+# seth means setheading
+
+turtle.Screen()
+pen = turtle.Turtle()
+pen.speed(0)
+
+turtle.seth(0)
+
+turtle.forward(80)
+turtle.write("east")
+
+# back to home
+turtle.home()
+
+turtle.seth(90)
+turtle.forward(80)
+turtle.write("north")
+
+# back to home
+turtle.home()
+
+
+turtle.seth(180)
+turtle.forward(80)
+turtle.write("west")
+
+# back to home
+turtle.home()
+
+turtle.setheading(270)
+turtle.forward(80)
+turtle.write("south")
+
+turtle.ht()  # hideturtle()
+turtle.done()
+
+turtle.mainloop()

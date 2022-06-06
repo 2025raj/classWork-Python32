@@ -57,7 +57,10 @@ while i <= a:
 print(f"the {a}! is : {fact}")
 
 '''
+'''
 Ascen_odr = [18, 1, 55, 2, 30]
 # print(Ascen_odr)
 num = Ascen_odr.sort(reverse=False)
 print(num)
+
+'''

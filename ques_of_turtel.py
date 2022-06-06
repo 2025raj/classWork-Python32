@@ -52,7 +52,7 @@ turtle.mainloop()
 
 
 # using: dot method
-
+'''
 turtle.Screen()
 pen = turtle.Turtle()
 pen.shape("arrow")
@@ -91,10 +91,9 @@ pen.dot(100)
 
 turtle.done()
 turtle.mainloop()
-
+'''
 
 # using another method: made circle first then fill the circles.
-
 '''
 turtle.Screen()
 pen = turtle.Turtle()
