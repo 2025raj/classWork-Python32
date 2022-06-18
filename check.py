@@ -61,6 +61,27 @@ print(f"the {a}! is : {fact}")
 Ascen_odr = [18, 1, 55, 2, 30]
 # print(Ascen_odr)
 num = Ascen_odr.sort(reverse=False)
-print(num)
+print(num) 
 
 '''
+
+
+lit = ["a", "b", "c", "d", "e"]
+
+lit.insert(5, 10)
+print(lit)
+
+
+# lit = ["a", "b", "c", "d", "e"]
+
+# del lit[2]
+# print(lit)
+
+
+num1 = 50
+
+
+if num1 % 2 == 0:
+    print("it is even number")
+elif num1 % 2 == 1:
+    print("it is odd number")

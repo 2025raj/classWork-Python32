@@ -85,7 +85,7 @@ turtle.screensize()
 turtle.screensize(4000, 5000)
 turtle.screensize()
 '''  # this doesnot work
-turtle.Screen()
+screen = turtle.Screen()
 
 # do comment this code using '#' before pen to see differnce
 pen = turtle.Turtle()  # this command is used for pen
@@ -132,7 +132,7 @@ pen.forward(50)  # put 0 once to see
 # for changing the screen color
 # use this code:
 
-turtle.bgcolor("green")  # background color built-in function
+screen.bgcolor("green")  # background color built-in function
 
 # turtle.bgcolor("black")
 
@@ -181,8 +181,8 @@ pen.color("blue")
 pen.backward(50)
 
 
-turtle.bgcolor("yellow")
-turtle.title("hello world")
+screen.bgcolor("yellow")
+screen.title("hello world")
 pen.color("black")
 pen.left(90)  # if we use left then it starts from anti-clockwise
 pen.forward(100)
@@ -193,7 +193,7 @@ pen.right(90)
 pen.forward(100)
 
 
-turtle.done()
+screen.done()
 
 
-turtle.mainloop()  # only use this command at last
+screen.mainloop()  # only use this command at last
